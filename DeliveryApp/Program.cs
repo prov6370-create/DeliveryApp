@@ -10,7 +10,6 @@ class Program
         Bike bike = new Bike("Велосипед");
         Car car = new Car("Автомобіль");
         Truck truck = new Truck("Вантажівка");
-        Moto moto = new Moto("Мотоцикл");
         service.AddTransport(bike);
         service.AddTransport(car);
         service.AddTransport(truck);
